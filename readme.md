@@ -46,3 +46,42 @@
         - Ele atendeu as todas as expectativas.
 
 # Moons
+
+1.  Descrição do Dataset
+    - Número de amostras e features   
+        - Amostras: 200, Features: 2.
+
+    - Distribuição das classes
+        - Classes: 2, [0 e 1].
+
+    - É linearmente separável?
+        - Não.
+
+2.  Resultados
+    - Acurácia no treino e teste
+        - Treino: 82,86% e Teste: 81,67%.
+
+    - Número de épocas até convergência
+        - Não houve convergência.
+
+    - Tempo de treinamento
+        - Tempo de Treinamento: 0.04311140 segundos
+
+3.  Visualizações
+    - Gráfico de convergência
+
+    - Regiões de decisão (quando possível)
+
+    - Matriz de confusão
+        - [24 6]
+        - [5 25]
+4.  Análise
+    - O perceptron foi adequado para este problema?
+        - Não pois o problema não era linearmente separável.
+
+    - Que melhorias você sugeriria?
+        - 
+
+    - Comparação com suas expectativas
+        - Houve uma acurácia acima do esperado, em torno de 20% maior.
+

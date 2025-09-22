@@ -117,7 +117,7 @@ if ppn.weights[1] != 0:
  
 # PASSO 8: Visualizar a Matriz de Confusão
 print("\n" + "="*50)
-print("Matriz de Confusão (Console)")
+print("Matriz de Confusão")
 print("="*50)
 
 cm = confusion_matrix(y_test, y_pred) # Gera a matriz de confusão
