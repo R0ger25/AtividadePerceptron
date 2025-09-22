@@ -26,7 +26,6 @@ print(f"Dataset gerado:")
 print(f"- Amostras: {X.shape[0]}")
 print(f"- Features: {X.shape[1]}")
 print(f"- Classes: {np.unique(y)}")
-print(f"- Classes: {np.unique(y)}")
 
 # PASSO 2: Dividir em Treino e Teste
 X_train, X_test, y_train, y_test = train_test_split(
