@@ -10,7 +10,7 @@ import time
 
 # PASSO 1: Gerar o Dataset
 print("=" * 50)
-print("EXEMPLO: Moons Dataset")
+print("EXEMPLO: Breast Dataset")
 print("=" * 50)
 
 cancer = load_breast_cancer()

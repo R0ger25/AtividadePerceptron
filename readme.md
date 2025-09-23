@@ -136,3 +136,45 @@
 
     - Comparação com suas expectativas
         - A versão com apenas 2 features me surpreendeu, pois ficou menos preciso do que a versão com todas as features.
+
+# Ruído
+
+1.  Descrição do Dataset
+    - Número de amostras e features   
+        - Amostras: 200, Features: 2.
+
+    - Distribuição das classes
+        - Classes: 2, [0 e 1].
+
+    - É linearmente separável?
+        - 100% não, mas chega bastante perto de ser separavel.
+
+2.  Resultados
+    - Acurácia no treino e teste
+        - Treino: 97,14% e Teste: 96,67%.
+
+    - Número de épocas até convergência
+        - Não houve convergência.
+
+    - Tempo de treinamento
+        - Tempo de Treinamento: 0.04285330 segundos
+
+3.  Visualizações
+    - Gráfico de convergência
+
+    - Regiões de decisão (quando possível)
+
+    - Matriz de confusão
+        - [29 0]
+        - [ 2 29]
+4.  Análise
+    - O perceptron foi adequado para este problema?
+        - Dependendo de como usar as configurações de métrica sim.
+
+    - Que melhorias você sugeriria?
+        - Ajeitar as métricas.
+
+    - Comparação com suas expectativas
+        - Depois que alterei as métricas houve um resultado até consideravelmente ótimo em relação ao esperado.
+
+# Dataset Linearmente Separável Personalizado
