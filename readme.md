@@ -85,3 +85,42 @@
     - Comparação com suas expectativas
         - Houve uma acurácia acima do esperado, em torno de 20% maior.
 
+# Breast Cancer
+
+1.  Descrição do Dataset
+    - Número de amostras e features
+        - Amostras: 569, Features: 2.
+
+    - Distribuição das classes
+        - Classes: ['malignant' 'benign']
+
+    - É linearmente separável?
+        - Não.
+
+2.  Resultados
+    - Acurácia no treino e teste
+        - Treino: 91,21% e Teste: 89,47%.
+
+    - Número de épocas até convergência
+        - Não convergiu completamente
+
+    - Tempo de treinamento
+        - Tempo de Treinamento: 0.11492060 segundos
+
+3.  Visualizações
+    - Gráfico de convergência
+
+    - Regiões de decisão (quando possível)
+
+    - Matriz de confusão
+        - [59 5]
+        - [13 94]
+4.  Análise
+    - O perceptron foi adequado para este problema?
+        - Não pois o problema não era linearmente separável. Pois os pontos estavam muitos juntos e dificilmente seria separavel pelo perceptron.
+
+    - Que melhorias você sugeriria?
+        - 
+
+    - Comparação com suas expectativas
+        - A versão com apenas 2 features me surpreendeu, pois ficou menos preciso do que a versão com todas as features.
