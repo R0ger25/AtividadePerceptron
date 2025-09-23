@@ -80,7 +80,7 @@ else:
 # fig, axes = plt.subplots(1, 2, figsize=(12, 5))
 
 # # Subplot 1: Regiões de Decisão
-# axes[0].set_title('Regiões de Decisão - Moons')
+# axes[0].set_title('Regiões de Decisão - Breast')
 # plot_decision_regions(X_train_std, y_train, classifier=ppn)
 # axes[0].set_xlabel('Feature 1 (normalizada)')
 # axes[0].set_ylabel('Feature 2 (normalizada)')

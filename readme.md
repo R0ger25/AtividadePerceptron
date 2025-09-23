@@ -178,3 +178,41 @@
         - Depois que alterei as métricas houve um resultado até consideravelmente ótimo em relação ao esperado.
 
 # Dataset Linearmente Separável Personalizado
+
+1.  Descrição do Dataset
+    - Número de amostras e features   
+        - Amostras: 100, Features: 2.
+
+    - Distribuição das classes
+        - Classes: 2, [0 e 1].
+
+    - É linearmente separável?
+        - Sim. Se os centro das classes forem os primeiros inseridos, pois aproximando mais do centro eles não vão mais ser linearmente separaveis.
+
+2.  Resultados
+    - Acurácia no treino e teste
+        - 100% em ambos.
+
+    - Número de épocas até convergência
+        - 2 épocas.
+
+    - Tempo de treinamento
+        - Tempo de Treinamento: 0.00082290 segundos.
+
+3.  Visualizações
+    - Gráfico de convergência
+
+    - Regiões de decisão (quando possível)
+
+    - Matriz de confusão
+        - [15 0]
+        - [0 15]
+4.  Análise
+    - O perceptron foi adequado para este problema?
+        - Sim. dependendo dos centros das classes.
+
+    - Que melhorias você sugeriria?
+        - 
+
+    - Comparação com suas expectativas
+        - Ele atendeu as todas as expectativas. Mas quando alterei os centros das classes ele perdeu bastante a acurácia, então ele não seria mais "utilizavel".
