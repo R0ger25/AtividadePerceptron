@@ -19,8 +19,8 @@ y = cancer.target
 print(f"Features: {cancer.feature_names}")
 print(f"Classes: {cancer.target_names}")  # ['malignant' 'benign']
 
-# Versão A
-X = X[:, [0, 2]]
+# Versão B
+# X = X[:, [0, 2]]
 
 print(f"Dataset gerado:")
 print(f"- Amostras: {X.shape[0]}")
@@ -76,24 +76,24 @@ else:
 	print("- Não convergiu completamente")
 
 
-# PASSO 6: Visualizar Resultados
-fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+# # PASSO 6: Visualizar Resultados
+# fig, axes = plt.subplots(1, 2, figsize=(12, 5))
 
-# Subplot 1: Regiões de Decisão
-axes[0].set_title('Regiões de Decisão - Moons')
-plot_decision_regions(X_train_std, y_train, classifier=ppn)
-axes[0].set_xlabel('Feature 1 (normalizada)')
-axes[0].set_ylabel('Feature 2 (normalizada)')
+# # Subplot 1: Regiões de Decisão
+# axes[0].set_title('Regiões de Decisão - Moons')
+# plot_decision_regions(X_train_std, y_train, classifier=ppn)
+# axes[0].set_xlabel('Feature 1 (normalizada)')
+# axes[0].set_ylabel('Feature 2 (normalizada)')
 
-# Subplot 2: Curva de Convergência
-axes[1].plot(range(1, len(ppn.errors_history) + 1), ppn.errors_history, marker='o')
-axes[1].set_xlabel('Épocas')
-axes[1].set_ylabel('Número de erros')
-axes[1].set_title('Convergência do Treinamento')
-axes[1].grid(True, alpha=0.3)
+# # Subplot 2: Curva de Convergência
+# axes[1].plot(range(1, len(ppn.errors_history) + 1), ppn.errors_history, marker='o')
+# axes[1].set_xlabel('Épocas')
+# axes[1].set_ylabel('Número de erros')
+# axes[1].set_title('Convergência do Treinamento')
+# axes[1].grid(True, alpha=0.3)
 
-plt.tight_layout()
-plt.show()
+# plt.tight_layout()
+# plt.show()
 
 # PASSO 7: Análise dos Pesos Aprendidos
 print(f"\nPesos aprendidos:")
