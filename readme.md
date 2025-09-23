@@ -89,7 +89,7 @@
 
 1.  Descrição do Dataset
     - Número de amostras e features
-        - Amostras: 569, Features: 2.
+        - Amostras: 569, Features: 30 -> ['mean radius' 'mean texture' 'mean perimeter' 'mean area' 'mean smoothness' 'mean compactness' 'mean concavity' 'mean concave points' 'mean symmetry' 'mean fractal dimension' 'radius error' 'texture error' 'perimeter error' 'area error' 'smoothness error' 'compactness error' 'concavity error' 'concave points error' 'symmetry error' 'fractal dimension error''worst radius' 'worst texture' 'worst perimeter' 'worst area' 'worst smoothness' 'worst compactness' 'worst concavity' 'worst concave points' 'worst symmetry' 'worst fractal dimension'].
 
     - Distribuição das classes
         - Classes: ['malignant' 'benign']
@@ -99,13 +99,20 @@
 
 2.  Resultados
     - Acurácia no treino e teste
+        Versão A
         - Treino: 91,21% e Teste: 89,47%.
+        Versão B
+        - Treino: 98,24% e Teste: 97,08%.
 
     - Número de épocas até convergência
-        - Não convergiu completamente
+        - Não convergiu completamente em ambas versões.
 
     - Tempo de treinamento
+        Versão A
         - Tempo de Treinamento: 0.11492060 segundos
+
+        Versão B
+        - Tempo de Treinamento: 0.11900340 segundos
 
 3.  Visualizações
     - Gráfico de convergência
@@ -113,8 +120,13 @@
     - Regiões de decisão (quando possível)
 
     - Matriz de confusão
+        Versão A
         - [59 5]
         - [13 94]
+
+        Versão B
+        - [ 61   3]
+        - [  2 105]
 4.  Análise
     - O perceptron foi adequado para este problema?
         - Não pois o problema não era linearmente separável. Pois os pontos estavam muitos juntos e dificilmente seria separavel pelo perceptron.
